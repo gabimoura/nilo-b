@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/Logo-Nilo-Burguer.png.png">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Nilo Burguers</title>
+    <link href="_/css/bootstrap.css" rel="stylesheet">
+    <link href="_/css/custom.css" rel="stylesheet">
+</head>
+
+<body class="home">
+
+    <!-- NAVBAR -->
+
+    <section class="page-wrapper">
+
+        <div class="navbar-wrapper">
+            <section class="container">
+
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <section class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html"><img src="images/Logo-Nilo-Burguer.png.png"></a>
+                        </section> <!-- navbar-header -->
+                        <section id="navbar" class="navbar-collapse collapse pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="manifesto.html">NOSSO MANIFESTO</a></li>
+                                <li><a href="cardapio.html">CARDÁPIO</a></li>
+                                <li class="active"><a href="contact.html">CONTATO</a></li>
+                            </ul> <!-- nav navbar-nav -->
+                        </section> <!-- #navbar -->
+                    </div> <!-- container -->
+                </nav>
+
+            </section> <!-- container -->
+        </div> <!-- navbar-wrapper -->
+
+        <!-- CONTACT FORM -->
+
+        <a id="form"></a>
+
+        <div class="form-wrapper">
+
+            <section class="module parallax parallax-2">
+                <div class="container">
+                    <center>
+                        <div class="row">
+                            <h1>CONTATO</h1>
+                        </div>
+                    </center>
+                </div>
+            </section>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="page-header text-center"></h1>
+                        <div class="col-md-offset-2">
+                            <h3>Nilo Burgers</h3>
+                            <br>
+                            <p>Av Onze de Junho, 1164<br />São Paulo, SP</p>
+                            <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;<a href="mailto://niloburger@gmail.com">niloburger@gmail.com</a></p>
+                            <p>
+                                <strong>Telefone:</strong> +55 11 3537-9777<br />
+                                <br>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0815305905826!2d-46.65032068502145!3d-23.601408784663068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a3cc49595e7%3A0xbf0c16ac04e13bf7!2sAv.+11+de+Junho%2C+1164+-+Vila+Clementino%2C+S%C3%A3o+Paulo+-+SP%2C+04041-004%2C+Brazil!5e0!3m2!1sen!2sca!4v1465334466358" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div><!--end col-md-offset-2-->
+                    </div><!--end col-md-6-->
+
+                    <div class="col-md-6">
+                        <h1 class="page-header text-center"></h1>
+                        <form class="form-horizontal" role="form" id="contactForm" method="post" action="http://formspree.io/niloburger@gmail.com">
+
+                            <div class="form-group">
+                                <label for="name" class="col-sm-3 control-label">Nome</label>
+                                <div class="col-sm-6">
+                                    <input type="text"
+                                           class="form-control"
+                                           id="name"
+                                           name="name"
+                                           placeholder="Nome"
+                                           required
+                                           data-validation-required-message="Seu nome">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="col-sm-3 control-label">Email</label>
+                                <div class="col-sm-6">
+                                    <input type="email"
+                                           class="form-control"
+                                           id="email"
+                                           name="email"
+                                           placeholder="email@seuemail.com"
+                                           required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="col-sm-3 control-label">Mensagem</label>
+                                <div class="col-sm-6">
+                                    <textarea id="message"
+                                              name="message"
+                                              class="form-control"
+                                              rows="10"
+                                              placeholder="mensagem"
+                                              required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-6 col-sm-offset-3">
+                                    <input id="_subject" type="hidden" name="_subject" value="formulario" />
+                                    <input id="_gotcha" type="text" name="_gotcha" style="display:none" />
+                                    <input id="_next" type="hidden" name="_next" value="http://nilo/contact-obrigada.html" />
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-6 col-sm-offset-3">
+                                    <input id="submit" name="submit" type="submit" value="Enviar" class="btn btn-primary">
+                                </div>
+                            </div>
+
+                        </form>
+                    </div><!--end col 6-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </div><!--end form-wrapper-->
+    </section>
+
+    <!-- RODAPE -->
+
+    <div class="footer">
+        <div class="containerFooter">
+          <footer class="footer-distributed">
+            <div class="footer-right">
+              <ul class="soc">
+                  <li><a class="fa fa-facebook fa-4x" href="https://www.facebook.com/niloburgers"></a></li>
+                  <li><a class="fa fa-camera-retro fa-4x" href="https://www.instagram.com/niloburgers/"></a></li>
+                  <li><a class="fa fa-tripadvisor fa-4x" href="https://www.tripadvisor.com.br/Restaurant_Review-g303631-d6012224-Reviews-Nilo_Burgers-Sao_Paulo_State_of_Sao_Paulo.html"></a></li>
+              </ul><!--end soc-->
+            </div><!--end footer-right-->
+          </footer>
+        </div><!--end containerFooter-->
+
+        <p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0815305905826!2d-46.65032068502145!3d-23.601408784663068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a3cc49595e7%3A0xbf0c16ac04e13bf7!2sAv.+11+de+Junho%2C+1164+-+Vila+Clementino%2C+S%C3%A3o+Paulo+-+SP%2C+04041-004%2C+Brazil!5e0!3m2!1sen!2sca!4v1465334466358">
+          <span  class="fa fa-map-marker fa-1x"></span>  Av Onze de Junho, 1164, São Paulo, SP</a><br /></p>
+        <p><a href="tel:+55 11 3537-9777"><span class="fa fa-phone fa-1x" aria-hidden="true"></span>  Tel:+55 11 3537-9777</a></p>
+        <p><span class="fa fa-clock-o fa-1x" aria-hidden="true"></span>  Terça a Sábado - 12:00 às 23:30 • Domingos e feriados - 18:00 às 23:30</p>
+        <h6> Copyright Nilo Burgers 2016 - Todos direitos reservados. </h6>
+    </div>
+
+    <!-- BOOTSTRAP CORE AND CUSTOM JAVASCRIPT -->
+
+    <script src="_/js/bootstrap.js"></script>
+    <script src="_/js/custom.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+ </body>
+</html>
